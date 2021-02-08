@@ -1,20 +1,20 @@
 ---
 templateKey: site-data
-title: Gaming Techies
-logoSmall: /img/logo.png
-logoLarge: /img/logo.png
-faviconSmall: /img/favicon-16x16.png
-faviconLarge: /img/favicon-32x32.png
-facebook: https://web.facebook.com/gamingtechiesofficial
-youtube: https://www.youtube.com/channel/UCV1YUero4LNDkktpq6ScEjw
-twitter: https://www.twitter.com/
+title: Best Shoes Reviews and Buying Guides | Get Foot Wears
+logoSmall: /img/logo-getfootwears-small.png
+logoLarge: /img/logo-getfootwears-small.png
+faviconSmall: /img/getfootwear-fav-icon.png
+faviconLarge: /img/getfootwear-fav-icon.png
+facebook: https://web.facebook.com/getfootwears
+youtube: https://www.youtube.com/channel/getfootwears
+twitter: https://www.twitter.com/getfootwears
 number: "#"
 dmca: true
-dmcaLink: https://www.google.com
+dmcaLink: https://www.dmca.com/getfootwears
 cookies:
   enabled: true
-  message: To ensure the best experience on our website, we recommend that you
-    allow cookies, as described in our Privacy Policy.
+  message: To ensure the best experience on our website, Allow cookies, as
+    described in our Privacy Policy.
 colors:
   btnColor: "#fff"
   headerTextColor: "#fff"
@@ -26,14 +26,12 @@ colors:
   blockBackground: "#fff"
   headerBackground: "#4f3c8b"
 topNav:
-  - title: Learning Guides
-    link: /learning-guides/
-    child: []
-  - title: Buying Guides
-    link: /buying-guides/
-    child: []
-  - title: News
-    link: /news/
+  - link: /basketball-shoes/
+    title: Basketball Shoes
+  - title: Flat Feet Shoes
+    link: /flat-feet-shoes/
+  - title: Running Shoes
+    link: /running-shoes/
 footerNav:
   - title: About Us
     link: /about-us/

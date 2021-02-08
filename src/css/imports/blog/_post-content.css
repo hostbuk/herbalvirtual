@@ -1,0 +1,179 @@
+.product-box {
+  padding: 35px 0 40px;
+}
+.product-box ~ .product-box {
+  border-top: 1px solid;
+}
+.product-box h3 a,
+.product-box h2 a {
+  color: var(--custom-color-4);
+}
+.post-content .product-box:last-child {
+  padding-bottom: 0;
+}
+.post-text:empty + .product-box {
+  padding-top: 5px;
+}
+.post-content {
+  padding: 30px 20px;
+  margin-bottom: 15px;
+  background-color: var(--custom-color-2);
+}
+.product-box h3 a:hover {
+  color: #57b0daa1;
+}
+.su-button-center-content {
+  text-align: center;
+}
+.su-button-content {
+  font-size: 17px;
+    font-weight: 500;
+    line-height: 39px;
+    color: #FFF;
+    background-color: #ee5a5a;
+    display: inline-block;
+    height: 39px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 3px 0 0 #ca4538;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-bottom: none;
+	width:220px;
+}
+.su-button svg {
+  display:none;
+  
+}
+.su-button-content:hover {
+ background-color: #3358d5;
+ color: #FFF;
+  text-decoration: none;
+}
+.wp-block-table {
+  padding: 15px;
+  font-size: 18px;
+  background-color: var(--custom-color-1);
+}
+.blog-post .title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 5px;
+    margin-top: 10px;
+}
+.blog-post p {
+  line-height: 1.618;
+}
+.blog-post h1,
+.blog-post h3,
+.blog-post h4,
+.blog-post h5,
+.blog-post h6 {
+  font-weight: 500;
+  color: var(--custom-color-4);
+}
+.blog-post h2 {
+  font-weight: bold;
+}
+.blog-post h4 {
+  font-size: 1.4em;
+}
+.product-box .su-button-content {
+  padding: 0px 34px;
+  font-size: 19px !important;
+}
+.product-box .su-button-content span {
+  font-size: 16px !important;
+}
+.product-box .su-button-content svg {
+  min-width: 16px;
+  max-width: 16px;
+}
+.pimage img,
+.toc-bottom img,
+.best-image img,
+.tablepress img {
+  transition: 0.3s all ease-out;
+  padding: 2px;
+  border: 1px solid #e4e7e9;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.pimage img:hover,
+.pimage img:focus,
+.toc-bottom img:focus,
+.toc-bottom img:hover,
+.best-image img:focus,
+.best-image img:hover,
+.tablepress img:focus,
+.tablepress img:hover {
+  transform: scale(1.05);
+}
+.spec_table {
+  margin-bottom: 20px;
+}
+.pimage .su-button-content {
+  margin-bottom: 20px;
+}
+.image_spec {
+  display: flex;
+  justify-content: space-between;
+}
+.image_spec .spec_table,
+.image_spec .pimage {
+  width: 48%;
+}
+body .blog-post .product_title_s1 {
+  border: none;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .su-button-content {
+    font-size: 18px;
+	width:90%;
+	max-width:100%;
+  }
+  .su-button-content svg {
+    min-width: 18px;
+  }
+  .product-box {
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  .product-box h3 a,
+  .product-box h2 a {
+    font-size: 24px;
+  }
+  .post-content {
+    padding: 20px 12px;
+  }
+  .blog-section-top-inner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .blog-post h4 {
+    font-size: 24px;
+  }
+  .blog-post .title {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  .post-info-item p {
+    font-size: 16px;
+  }
+  .wp-block-table {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .blog-post .title {
+    font-size: 30px;
+  }
+  .post-top-section {
+    flex-wrap: wrap;
+  }
+  .post-social-section {
+    margin-left: auto;
+  }
+}

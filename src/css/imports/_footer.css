@@ -1,0 +1,115 @@
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #000000;
+}
+.footer-text {
+  color: #b4b4b4;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .protected-img {
+  text-align: center;
+  margin-right: 15px;
+}
+.footerbar {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: -20px;
+}
+.footerbar .footerbar-item::after {
+  content: " ";
+  height: 2px;
+  display: block;
+  position: absolute;
+  width: 10px;
+  background: #888;
+  top: 50%;
+  right: -3px;
+  opacity: 1 !important;
+}
+.footerbar .footerbar-item {
+  color: #FFFFFF;
+  position: relative;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.footerbar .footerbar-item:hover {
+  color: #ff9c00;
+}
+.footerbar .footerbar-item:last-child::after {
+  display: none;
+}
+.footernav {
+  flex: 1;
+}
+.footer-burger {
+  display: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  background-color: #000000;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .social-icons {
+  text-align: right;
+}
+.footer .social-icons a:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1023px) {
+  .footer-text {
+    justify-content: center;
+  }
+  .footerbar .footerbar-item:hover {
+  color: #ffffff;
+  }
+  .footer .social-icons {
+    text-align: center;
+    margin-top: 12px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-burger {
+    display: block;
+  }
+  .footerbar {
+    flex-direction: column;
+    background: #ff9c00;
+    margin: 10px;
+  }
+  .footer-menu.is-active {
+    display: block;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footernav {
+    margin-top: 15px;
+  }
+  .footerbar .footerbar-item::after {
+    display: none;
+  }
+  .footerbar .footerbar-item {
+    border-bottom: 1px solid;
+  }
+  .footerbar .footerbar-item:last-child {
+    border-bottom: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1250px) {
+  .footerbar .footerbar-item {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .footerbar .footerbar-item:hover {
+  color: #ffffff;
+  }
+}

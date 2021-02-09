@@ -6,6 +6,8 @@ module.exports = {
   siteMetadata: {
     title: "Best Shoes Reviews and Buying Guides | Get Foot Wears",
     description: "Need best shoes advice?  Reviews, buying guides and price comparisons between all best running shoes",
+	title: siteURL,
+    siteUrl: siteURL,
   },
   plugins: [
     "gatsby-plugin-react-helmet",

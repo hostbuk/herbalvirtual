@@ -265,7 +265,7 @@ const BlogPost = (props) => {
     <Layout type="post" title={frontmatter.title} titleParent={categoryName} link={`${categoryLink}/`}>
       <BlogPostTemplate
         helmet={
-          <HeadData title={`${frontmatter.seoTitle} - ${siteName}`} description={frontmatter.seoDescription} image={img}>
+          <HeadData title={`${frontmatter.seoTitle}`} description={frontmatter.seoDescription} image={img}>
             <script type="application/ld+json">{articleSchema}</script>
             {frontmatter.rating && <script type="application/ld+json">{ratingSchema}</script>}
             {frontmatter.products && <script type="application/ld+json">{productSchema}</script>}

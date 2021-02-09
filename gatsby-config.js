@@ -1,11 +1,11 @@
 const path = require("path");
-const siteURL = "https://gamingtechies.com";
+const siteURL = "https://getfootwears.netlify.app";
 const disqus = "gaming-techies";
 
 module.exports = {
   siteMetadata: {
-    siteURL: siteURL,
-    siteUrl: siteURL,
+    title: "Best Shoes Reviews and Buying Guides | Get Foot Wears",
+    description: "Need best shoes advice?  Reviews, buying guides and price comparisons between all best running shoes",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

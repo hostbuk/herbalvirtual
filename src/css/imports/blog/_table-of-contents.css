@@ -4,7 +4,8 @@
   background-color: var(--custom-color-2);
   display: table;
   width: 100%;
-  padding: 10px 5px;
+  padding: 14px 16px;
+  border-top: 4px solid #db4437;  
 }
 .post_toc nav {
   padding: 10px 0 15px;
@@ -22,6 +23,7 @@
 .post_toc_top {
   display: flex;
   justify-content: center;
+
 }
 .post_toc_btn {
   margin-left: 10px;
@@ -32,6 +34,7 @@
   color: #db4437;
   font-size: 16px;
   font-weight: 800;
+  padding:0px 35% 0px;
   transition: color 0.3s ease-out;
 }
 .post_toc_btn:hover {
@@ -45,7 +48,7 @@
   font-size: 20px;
   color: #FFFFFF;
   font-weight: 700;
-  background-color: #ef8d3b;
+  background-color: #db4437;
   text-align: center;
   padding: 5px 0;
 }
@@ -58,6 +61,7 @@
   font-weight: 500;
   margin-bottom: 0;
   font-size: 15px;
+  color:#db4437;
 }
 .toc-bottom img {
   width: auto;

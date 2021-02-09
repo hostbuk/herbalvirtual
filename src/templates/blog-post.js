@@ -116,15 +116,18 @@ export const BlogPostTemplate = (props) => {
                 </MDXProvider>
               </div>
               {products?.map((item, index) => (
-                <div className="product-box" key={index}>
-                  <PostComps.PTitle hlevel="3" title={item.name} />
-                  <PostComps.PImage alt={item.name} src={item.image?.base} link={item.link} />
-                  {!!item.specs?.length && <PostComps.SpecTable spec={item.specs} />}
-                  <MDXProvider components={PostComps}>
+                 <div className="product-box" key={index}>
+                  <div className="BBG-INNER"> <PostComps.PTitle hlevel="2" title={item.name} />
+                  <div className="BBG-IMG"><PostComps.PImage alt={item.name} src={item.image?.base} /></div>
+                  <div className="BBG-Specs">{!!item.specs?.length && <PostComps.SpecTable spec={item.specs}/>}
+				  </div> <div className="BBG-Button"><PostComps.Boxbutton link={item.link} title={item.btnText}/> </div></div>
+		
+                  <div className="BBG-content"><MDXProvider components={PostComps}>
+				  
                     <MDXRenderer>{item.body}</MDXRenderer>
-                  </MDXProvider>
+                  </MDXProvider></div>
                   {(!!item.pros?.length || !!item.cons?.length) && <PostComps.ProsNCons pros={item.pros} cons={item.cons} />}
-                  <PostComps.BButton link={item.link} title={item.btnText} />
+                  
                 </div>
               ))}
             </div>

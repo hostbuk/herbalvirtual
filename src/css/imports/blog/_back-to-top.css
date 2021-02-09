@@ -16,7 +16,7 @@
 }
 .btp:hover{
 	color: var(--custom-color-7);
-	  background-color: #ef8d3b;
+	  background-color: #504747;
 	  transition: background-color .8s ease-out;
 }
 .btp.active {

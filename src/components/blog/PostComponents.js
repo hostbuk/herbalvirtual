@@ -13,6 +13,16 @@ export const BButton = ({ link, title }) => {
   );
 };
 
+export const Boxbutton = ({ link, title }) => {
+  return (
+    <div className="su-button-center-content">
+      <a href={link} className="su-button-box" target="_blank" rel="noreferrer nofollow">
+        <span>{title || "View on Amazon"}</span>
+      </a>
+    </div>
+  );
+};
+
 export const ProsNCons = ({ pros, cons }) => {
   return (
     <div className="su-row">
@@ -58,24 +68,27 @@ export const ProsNCons = ({ pros, cons }) => {
   );
 };
 
-export const SpecTable = ({ spec }) => {
+export const SpecTable = ({ spec  }) => {
+	
+  
   return (
+  
     <table className="spec_table">
       <tbody>
         {spec &&
           spec.map((item, index) => (
             <tr key={index}>
-              <td>
-                <strong>{item.name} </strong>
-              </td>
+              <td><strong>✔</strong></td>
               <td>{item.value}</td>
             </tr>
           ))}
         <tr></tr>
       </tbody>
     </table>
+	
   );
-};
+  
+}; 
 
 export const PTitle = ({ title, beforeTitle, afterTitle, link, hlevel, cName = "box_title", cEnable, disableTitle }) => {
   const Heading = `h${hlevel || "2"}`;
@@ -115,6 +128,7 @@ export const PImage = ({ alt, src, link }) => {
           </picture>
         </Anchor>
       </figure>
+	  
       {link && <BButton link={link} title="Check Price" />}
     </div>
   );
@@ -133,28 +147,27 @@ export const TImage = ({ alt, src }) => {
       <img src={`/img/${src}`} alt={alt} loading="lazy" width={width} height={height} />
     </picture>
   );
-};
+}; 
 
 export const TableOfContents = ({ data }) => {
   const [height, setHeight] = useState(0);
-  const [btnText, setBtnText] = useState("Show");
+  const [btnText, setBtnText] = useState("Contents ▼");
 
   const openNav = () => {
     if (height === 0) {
       setHeight("auto");
-      setBtnText("Hide");
+      setBtnText("Contents ▲");
     } else {
       setHeight(0);
-      setBtnText("Show");
+      setBtnText("Contents ▼");
     }
   };
 
   return (
     <div className="post_toc">
       <div className="post_toc_top">
-        <div className="post_toc_title">Table of Contents</div>
         <button className="post_toc_btn" onClick={() => openNav()}>
-          {btnText}
+          {btnText}{}
         </button>
       </div>
       <AnimateHeight height={height}>

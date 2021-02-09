@@ -21,6 +21,7 @@ h4 {
   font-size: 100%;
   font-weight: normal;
 }
+
 ul {
   list-style: none;
 }
@@ -558,7 +559,7 @@ input::placeholder {
 .aligncenter {
   text-align: center;
   display: block;
-  margin: 0 auto 24px;
+  margin: 0 auto 10px;
   clear: both;
 }
 .iframe-center {
@@ -588,6 +589,8 @@ div#gatsby-focus-wrapper > div {
     width: 27%;
     padding-left: 10px;
   }
+  
+
 }
 @media (max-width: 767px) {
   .default-page .content {

@@ -108,19 +108,13 @@ table#tablepress-7 td {
 	border-bottom: 5px solid #2f7314;
 	word-wrap: normal;
 	display: block;
-	margin: 10px auto;
-	
-	
+	margin: 10px auto;	
 	color: #fff !important;
-	
-	padding: 5px 25px;
+	padding: 5px 32px;
 	border-radius: 6px;
 	box-shadow:none;
-	
-	
-	
 	width: 100% !important;
-	max-width: 100% !important;
+	max-width: 90% !important;
 	text-align: center;
 	transition: .2s linear;
 	Height:42px;

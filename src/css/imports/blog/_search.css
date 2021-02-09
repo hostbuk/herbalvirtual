@@ -8,6 +8,8 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  border-bottom:4px solid #db4437;
+  border-top:0.5px solid #695e5d;
 }
 .instant-search [type="search"] {
   margin: 0;

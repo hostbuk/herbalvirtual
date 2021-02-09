@@ -1,3 +1,7 @@
+.BBG-content {
+	margin-top:20px;
+}
+
 .product-box {
   padding: 35px 0 40px;
 }
@@ -37,16 +41,41 @@
     border-radius: 4px;
     text-decoration: none;
     box-shadow: 0 3px 0 0 #ca4538;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border-bottom: none;
 	width:220px;
+}
+.su-button-center-box {
+  text-align: center;
+}
+.su-button-box {
+  font-size: 17px;
+    font-weight: 500;
+    line-height: 39px;
+    color: #FFF;
+    background-color: #ee5a5a;
+    display: inline-block;
+    height: 39px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 3px 0 0 #ca4538;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: none;
+	width:100%;
+}
+.su-button-box:hover  {
+ background-color: #3358d5;
+ color: #FFF;
+  text-decoration: none;
 }
 .su-button svg {
   display:none;
   
 }
-.su-button-content:hover {
+.su-button-content:hover{
  background-color: #3358d5;
  color: #FFF;
   text-decoration: none;
@@ -165,6 +194,51 @@ body .blog-post .product_title_s1 {
   .wp-block-table {
     font-size: 15px;
   }
+  
+  .BBG-INNER{
+
+    background-color: #FFF;
+	border: 6px solid #db4437;
+    padding: 30px;
+}
+}
+@media (min-width: 1024px){
+	.BBG-INNER{
+	max-width: 800px;
+    width: 100%;
+    margin: auto;
+    background-color: #FFF;
+	border: 5px solid #db4437;
+    padding: 30px;
+}
+
+.BBG-IMG {
+	width: 50%;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 20px;
+	float:left;
+	
+}
+.BBG-IMG img {
+	
+	margin: auto;
+    display: block;
+    outline: 0px;
+    max-width: 90%;
+}
+
+.BBG-Specs {
+	
+	    width: 50%;
+		float:right;
+}
+
+.BBG-Button{
+	
+	width:100%;
+}
+	
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .blog-post .title {
@@ -176,4 +250,33 @@ body .blog-post .product_title_s1 {
   .post-social-section {
     margin-left: auto;
   }
+.BBG-INNER{
+	max-width: 800px;
+    width: 100%;
+    margin: auto;
+    background-color: #FFF;
+	border: 6px solid #db4437;
+    padding: 30px;
+}
+.BBG-IMG {
+	width: 50%;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+	float:left;
+	
+}
+.BBG-IMG img {
+	
+	margin: auto;
+    display: block;
+    outline: 0px;
+    max-width: 75%;
+}
+
+.BBG-Specs {
+	
+	    width: 50%;
+		float:right;
+}
 }

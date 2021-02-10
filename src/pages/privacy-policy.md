@@ -2,14 +2,14 @@
 templateKey: default-page
 title: Privacy Policy
 seoTitle: Privacy Policy
-seoDescription: This is the Privacy Policy Page Of Gaming Techies. Learn how we
+seoDescription: This is the Privacy Policy Page Of Get Foot Wears. Learn how we
   maintain the privacy of our users. We take full responsibility for our
   visitors and try not to...
 schema: ""
 ---
 ## Who we are
 
-Our website address is: [https://www.gamingtechies.com/](https://gamingtechies.com/)
+Our website address is: [](https://gamingtechies.com/)<https://getfootwears.com/>
 
 ## What personal data we collect and why we collect it
 

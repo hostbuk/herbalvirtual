@@ -1,9 +1,11 @@
 const path = require("path");
-const siteURL = "https://getfootwears.netlify.app";
-const disqus = "gaming-techies";
+const siteURL = "https://getfootwears.com";
+const disqus = "getfootwears";
 
 module.exports = {
   siteMetadata: {
+	  title:"Best Shoes Reviews and Buying Guides | Get Foot Wears",
+description:"Need Advice to pick best shoes ?  Reviews, buying guides and price comparisons between all best running shoes",
     siteURL: siteURL,
     siteUrl: siteURL,
   },
@@ -100,7 +102,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/contact-us/thanks`],
+        exclude: [`/category/*`, `/contact-us/thanks*`, `/path/to/page`],
       },
     },
     "gatsby-plugin-robots-txt",

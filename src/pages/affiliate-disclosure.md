@@ -2,7 +2,7 @@
 templateKey: default-page
 title: Affiliate Disclosure
 seoTitle: Affiliate Disclosure
-seoDescription: Amazon and/or other companies pay Gaming Techies a small
+seoDescription: Amazon and/or other companies pay GetFootWears a small
   commission or other compensation for helping to bring customers to their
   website.
 schema: ""
@@ -15,7 +15,7 @@ These rules are set in place to ensure that readers or viewers of web media are 
 
 In compliance with the FTC guidelines, please assume the following about links and posts on this site:
 
-Any/all of the links on gamingtechies.com are affiliate links for which I receive a small compensation from sales of certain items.
+Any/all of the links on getfootwears.com are affiliate links for which I receive a small compensation from sales of certain items.
 
 ### What Are Affiliate Links?
 
@@ -25,11 +25,11 @@ These rules are set in place to ensure that readers or viewers of web media are 
 
 In compliance with the FTC guidelines, please assume the following about links and posts on this site:
 
-Any/all of the links on gamingtechies.com are affiliate links for which I receive a small compensation from sales of certain items.
+Any/all of the links on getfootwears.com are affiliate links for which I receive a small compensation from sales of certain items.
 
 ### 1. Amazon affiliate links.
 
-gamingtechies.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for website owners to earn fees by linking to Amazon.com and affiliated sites, as well as to other websites that may be affiliated with Amazon Service LLC Associates Program.
+getfootwears.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for website owners to earn fees by linking to Amazon.com and affiliated sites, as well as to other websites that may be affiliated with Amazon Service LLC Associates Program.
 
 ### 2. Product affiliate links.
 
@@ -39,6 +39,6 @@ Again, prices are not different if you use these affiliate links. You will not p
 
 ### What about sponsored content?
 
-I do not write sponsored posts. I want to provide authentic, un-biased information. However, if a company would like to publish sponsored content on Gaming Techies, I will disclose this clearly at the beginning of the post.
+I do not write sponsored posts. I want to provide authentic, un-biased information. However, if a company would like to publish sponsored content on Getfootwears, I will disclose this clearly at the beginning of the post.
 
 The bottom line is that I only recommend products I use myself or that I would recommend to family and friends. Your purchase helps support my research efforts. Thank you very, very much! I appreciate you!

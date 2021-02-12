@@ -4,8 +4,8 @@ const disqus = "getfootwears";
 
 module.exports = {
   siteMetadata: {
-	  title:"Best Shoes Reviews and Buying Guides | Get Foot Wears",
-description:"Need Advice to pick best shoes ?  Reviews, buying guides and price comparisons between all best running shoes",
+	  title:'Best Shoes Reviews and Buying Guides | Get Foot Wears',
+description:'Need Advice to pick best shoes ?  Reviews, buying guides and price comparisons between all best running shoes',
     siteURL: siteURL,
     siteUrl: siteURL,
   },
@@ -102,7 +102,7 @@ description:"Need Advice to pick best shoes ?  Reviews, buying guides and price 
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/category/*`, `/contact-us/thanks*`, `/path/to/page`],
+        exclude: [`/src/page`],
       },
     },
     "gatsby-plugin-robots-txt",

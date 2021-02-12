@@ -102,7 +102,7 @@ description:'Need Advice to pick best shoes ?  Reviews, buying guides and price 
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/src/page`],
+        exclude: [`/src/pages`],
       },
     },
     "gatsby-plugin-robots-txt",

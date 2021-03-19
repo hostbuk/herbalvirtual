@@ -36,7 +36,7 @@ description:'Need Advice to pick best shoes ?  Reviews, buying guides and price 
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `gaming-techies`,
+        shortname: `getfootwears`,
       },
     },
     "gatsby-plugin-sharp",
@@ -102,7 +102,7 @@ description:'Need Advice to pick best shoes ?  Reviews, buying guides and price 
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/src/pages`],
+        exclude: [`/404.html`,'/contact-us/thanks/','/contact-us/','/404/','/dev-404-page/','/terms-of-service/','/privacy-policy/','/affiliate-disclosure/','/about-us/','/author/','/news/'],
       },
     },
     "gatsby-plugin-robots-txt",

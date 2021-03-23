@@ -102,7 +102,7 @@ description:'Need Advice to pick best shoes ?  Reviews, buying guides and price 
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/404.html`,'/contact-us/thanks/','/contact-us/','/404/','/dev-404-page/','/terms-of-service/','/privacy-policy/','/affiliate-disclosure/','/about-us/','/author/','/news/','/basketball-shoes/','/flat-feet-shoes/','/plantar-fasciitis-shoes/','/running-shoes/','/author/rebecca-bandy/],
+        exclude: [`/404.html`,'/contact-us/thanks/','/contact-us/','/404/','/dev-404-page/','/terms-of-service/','/privacy-policy/','/affiliate-disclosure/','/about-us/','/author/','/news/','/basketball-shoes/','/flat-feet-shoes/','/plantar-fasciitis-shoes/','/running-shoes/','/author/rebecca-bandy/'],
       },
     },
     "gatsby-plugin-robots-txt",

@@ -50,6 +50,7 @@ const HeadData = (props) => {
       <meta name="twitter:card" content="" />
       <meta name="twitter:creator" content="" />
       <meta name="twitter:site" content="" />
+      <meta name="google-site-verification" content="YmHftZYbWbrzVaFXKth6asz8WL1pREfSHSS0gPGbdiY" />
       <link rel="icon" type="image/png" href={`${withPrefix("/")}img/${faviconLarge.base}`} sizes="32x32" />
       <link rel="icon" type="image/png" href={`${withPrefix("/")}img/${faviconSmall.base}`} sizes="16x16" />
       <script type="application/ld+json">{sitemapschema}</script>
@@ -60,6 +61,7 @@ const HeadData = (props) => {
       {props.children}
     </Helmet>
   );
+
 };
 
 export default HeadData;

@@ -71,6 +71,27 @@
  color: #FFF;
   text-decoration: none;
 }
+
+.su-button-cookie {
+  
+	background: #ee5a5a;
+    border: none;
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 22px!important;
+    line-height: 1.1rem;
+    text-shadow: none;
+    display: inline-flex;
+    align-items: center;
+	box-shadow: 0 3px 0 0 #ca4538;
+}
+.su-button-cookie:hover  {
+ background-color: #3358d5;
+ color: #FFF;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;
+}
+
 .su-button svg {
   display:none;
   

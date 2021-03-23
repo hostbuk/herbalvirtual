@@ -34,7 +34,7 @@ const TemplateWrapper = (props) => {
       {title && <BreadCrumbs title={title} titleParent={titleParent} link={link} />}
       {children}
       {cookies?.enabled && (
-        <CookieConsent style={{ background: blockBackground, color: textColor }} buttonClasses="su-button button-cookie" buttonWrapperClasses="button-wrapper-cookie" disableButtonStyles={true}>
+        <CookieConsent style={{ background: blockBackground, color: textColor }} buttonClasses="su-button-cookie button-cookie" buttonWrapperClasses="button-wrapper-cookie" disableButtonStyles={true}>
           {cookies?.message}
         </CookieConsent>
       )}

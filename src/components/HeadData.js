@@ -50,6 +50,7 @@ const HeadData = (props) => {
       <meta name="twitter:card" content="" />
       <meta name="twitter:creator" content="" />
       <meta name="twitter:site" content="" />
+      <meta name="google-site-verification" content="dAQEoiduPi0tL87RIwHr1asyZKLlktpr5C1h-djp1T4" />
       <link rel="icon" type="image/png" href={`${withPrefix("/")}img/${faviconLarge.base}`} sizes="32x32" />
       <link rel="icon" type="image/png" href={`${withPrefix("/")}img/${faviconSmall.base}`} sizes="16x16" />
       <script type="application/ld+json">{sitemapschema}</script>

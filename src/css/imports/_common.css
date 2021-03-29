@@ -580,6 +580,14 @@ div#gatsby-focus-wrapper > div {
   background-color: var(--custom-color-2);
   padding: 30px 20px;
 }
+.button-wrapper-cookie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
 @media (min-width: 1024px) {
   .column.is-9 {
     width: 73%;

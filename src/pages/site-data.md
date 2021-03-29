@@ -28,8 +28,8 @@ colors:
 topNav:
   - link: /basketball-shoes/
     title: Basketball Shoes
-  - title: Flat Feet Shoes
-    link: /flat-feet-shoes/
+  - title: Plantar Fasciitis Shoes
+    link: /plantar-fasciitis-shoes/
   - title: Running Shoes
     link: /running-shoes/
 footerNav:

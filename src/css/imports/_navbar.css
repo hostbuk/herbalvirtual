@@ -3,7 +3,7 @@
   z-index: 30;
   padding: 0px 0.75rem;
   box-shadow: #000000;
-  background-color: #db4437;
+  background-color: #000000;
 }
 .navbar .container {
   display: flex;
@@ -23,7 +23,7 @@
   position: relative;
   min-width: 3.25rem;
   margin-left: auto;
-  background-color: transparent;
+  background-color: #000000;
 }
 .navbar-burger span,
 .footer-burger span {
@@ -52,7 +52,7 @@
 }
 .navbar-burger:hover,
 .footer-burger:hover {
-  background-color: transparent;
+  background-color: #000000;
 }
 .navbar-burger.is-active span:nth-child(1),
 .footer-burger.is-active span:nth-child(1) {
@@ -109,7 +109,7 @@
   justify-content: flex-start;
 }
 .navbar-parent-two .nav-child-first > .navbar-item > .navbar-item-link {
-  color: #fff;
+  color: #000000;
 }
 .open-parent {
   display: flex;
@@ -126,7 +126,7 @@
   }
   div#navMenu .navbar-end {
     margin-top: 10px;
-    background-color: #b52727;
+    background-color: #ff9c00;
   }
   .navbar-item {
     border-bottom: 1px solid var(--custom-color-7);
@@ -142,7 +142,7 @@
     transform: none;
     width: 100%;
     flex-wrap: wrap;
-    background: #db4437;
+    background: #000000;
   }
   .open-parent {
     position: absolute;
@@ -155,7 +155,7 @@
   }
   .nav-child-first {
     border-style: solid;
-    border-color: #d43131;
+    border-color: #ff9c00;
     border-width: 1px 1px 0;
   }
   .navbar-menu {
@@ -204,7 +204,7 @@
     margin-right: -0.75rem;
   }
   a.navbar-item.is-active {
-    color: #fff;
+    color: #2b2523;
   }
   a.navbar-item.is-active:not(:focus):not(:hover) {
     background-color: #ff9c00;
@@ -232,6 +232,6 @@
     display: flex;
   }
   .navbar-item .navbar-item .navbar-item-link {
-    color: #db4437;
+    color: #000000;
   }
 }

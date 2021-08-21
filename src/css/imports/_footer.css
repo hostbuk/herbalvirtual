@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   padding: 20px 20px;
-  background-color: #db4437;
+  background-color: #000000;
 }
 .footer-text {
-  color: #ffffff;
+  color: #b4b4b4;
   display: flex;
   justify-content: flex-end;
 }
@@ -34,10 +34,10 @@
   color: #FFFFFF;
   position: relative;
   padding: 8px 20px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .footerbar .footerbar-item:hover {
-  background-color: #b5a1a0e0;
+  color: #ff9c00;
 }
 .footerbar .footerbar-item:last-child::after {
   display: none;
@@ -82,7 +82,7 @@
   }
   .footerbar {
     flex-direction: column;
-    background:#d42525;
+    background: #ff9c00;
     margin: 10px;
   }
   .footer-menu.is-active {
